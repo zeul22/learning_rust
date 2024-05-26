@@ -48,5 +48,11 @@ fn main() {
         }
     }
     println!("{}", answer);
+    let c: i32 = do_sum(4, 2);
+    println!("{}", c);
 }
- 
+
+// function
+fn do_sum(a: i32, b: i32) -> i32 {
+    return a + b;
+}
