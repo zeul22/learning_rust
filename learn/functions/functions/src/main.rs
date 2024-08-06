@@ -15,10 +15,10 @@ fn main() {
     // name = String::from("Kumar");
     // greet(name.clone());
     // println!("{}", name)
-    let full_name: String = helpers::get_full_name("Rahul", "Anand");
+    let full_name: String = helpers::greetings::get_full_name("Rahul", "Anand");
 
     println!("Hello from {0}", full_name);
-    helpers::get_age(40);
+    helpers::greetings::get_age(40);
 }
 
 #[allow(dead_code)]
